@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*  GLOBAL STYLES  */
+
 html {
 	font-size: 18px;
 	width: 100%;
@@ -30,6 +32,8 @@ justify-content: center;
   margin-right: -50vw;
 }
 
+	/*  HEADER */
+
 header {
 	background-color: #1A1A1A;
 	width: 100%;
@@ -55,9 +59,10 @@ header h3 {
 	border: 0px;
 }
 
+	/*  LANDING PAGE  */
+
 .landing-page {
 	height: 25rem;
-	wdith: 100%;
 	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
 	background-size: cover;
 	overflow: hidden;
@@ -70,6 +75,7 @@ header h3 {
 	width: 20rem;
 	margin-top: 9rem;
 	justify-content: center;
+	margin-left: 12rem;
 }
 
 .titles h3 {
@@ -82,4 +88,29 @@ header h3 {
 .titles h1 {
 	font-size: 2rem;
 	font-weight: bold;
+}
+
+	/*  NAV BAR  */
+
+.nav-bar {
+	background-color: firebrick;
+	padding: 0.75rem;
+	justify-content: center;
+	text-align: center;
+}
+
+.nav-items {
+	width: 960px;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	margin: auto;
+}
+
+.nav-items a {
+	color: snow;
+	text-decoration: none;
+	justify-content: space-between;
+	align-content: space-between;
+	
 }
