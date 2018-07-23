@@ -173,14 +173,14 @@ header h3 {
 
 .information {
 	width: 100%;
-	justify-content: space-between;
 	margin-bottom: 4rem;
 	display: inline-flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .details {
-	width: 35%;	
+	/*width: 35%;	*/
 	display: inline-flex;
 	flex-direction: column;
 }
@@ -225,6 +225,9 @@ footer {
 		width: 30%;
 	}
 	
+	.details {
+		width: 35%;
+	}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -243,5 +246,49 @@ footer {
 	.glasses {
 		display: none;
 	}
+	
+	.details {
+		width: 35%;
+	}
 }
 
+@media only screen and (max-width: 470px) {
+	
+	.landing-page {
+		height: 15rem;
+	}
+	
+	.titles {
+		width: 100%;
+		padding: 1rem 2rem;
+		margin-top: 10rem;
+		margin-bottom: 0px;
+	}
+	
+	.titles h3 {
+		font-size: 0.77rem;
+	}
+	
+	.titles h1 {
+		font-size: 1rem;
+	}
+	
+	.item {
+		width: 96%;
+	}
+	
+	.watch {
+		display: none;
+	}
+	
+	.details {
+		width: 90%;
+		justify-content: center;
+		margin: auto;
+		padding-top: 0.5rem;
+	}
+	
+	.copyright {
+		text-align: center;
+	}
+}
