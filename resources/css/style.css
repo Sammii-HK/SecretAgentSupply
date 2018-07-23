@@ -112,5 +112,35 @@ header h3 {
 	text-decoration: none;
 	justify-content: space-between;
 	align-content: space-between;
-	
+	padding: 0px;	
+}
+
+.shop {
+	background-color: snow;	
+}
+
+.shop-items {
+	width: 960px;
+	justify-content: space-between;
+	padding-top: 3rem;
+	align-content: center;
+	margin: auto;
+}
+
+.item {
+	width: 30%;
+	justify-content: space-between;
+	border: 1px solid black;
+	align-content: center;
+}
+
+.item img {
+	height: 9rem;
+	padding: 2rem;
+	margin: auto;
+}
+
+.item h3 {
+	text-align: center;
+	background-color: 
 }
